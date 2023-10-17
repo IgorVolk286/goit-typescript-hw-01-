@@ -8,3 +8,7 @@ if (button && input) {
     concatenation(input.value, "hello!");
   });
 }
+
+function Friend(user) {
+  return <div>{user ? <p> Hello, {user} !</p> : <p> Hello, Guest!</p>} </div>;
+}
